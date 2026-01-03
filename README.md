@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# 🌦️ Weather React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive **Weather Web Application** built using **React.js** that fetches **real-time weather data** using an external Weather API.  
+Users can search for any city and instantly view current weather conditions like temperature, humidity, and weather status.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Demo / Live Link
 
-### `npm start`
+🔗 **Live Preview:**  
+https://parveen3108.github.io/weather-react-app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📂 **Repository Link:**  
+https://github.com/Parveen3108/weather-react-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Search weather by city name  
+- ✅ Real-time temperature updates  
+- ✅ Displays humidity & weather condition  
+- ✅ Responsive design (mobile-friendly)  
+- ✅ Clean and simple UI  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology | Used For |
+|----------|----------|
+| React.js | Frontend |
+| JavaScript | Logic |
+| HTML | Structure |
+| TailwindCSS | Styling |
+| Weather API | Real-time data |
+| GitHub Pages | Deployment |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone repository
+git clone https://github.com/Parveen3108/weather-react-app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Move to project folder
+cd weather-react-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Run development server
+npm start
 
-## Learn More
+📁 Folder Structure
+src/
+ ┣ components/
+ ┣ assets/
+ ┣ App.js
+ ┗ index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔑 API Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Weather data fetched using a public Weather API
 
-### Code Splitting
+City-based search supported
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Dynamic UI updates based on API response
 
-### Analyzing the Bundle Size
+⚠️ API key should be kept secure (use environment variables if extended)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🧠 Future Improvements
 
-### Making a Progressive Web App
+🌍 Auto-detect user location
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📅 7-day weather forecast
 
-### Advanced Configuration
+🎨 Improved UI with animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🌙 Dark mode
 
-### Deployment
+📧 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Parveen Solath
+📩 Email: parveensolath205@gmail.com
 
-### `npm run build` fails to minify
+💼 GitHub: https://github.com/Parveen3108
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Support
+
+If you like this project, please ⭐ star the repository.
+Your support motivates me to build more projects 🚀
